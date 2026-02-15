@@ -10,7 +10,7 @@ To view all settings for all commands loaded:
 gef➤  gef config
 ```
 
-![gef-config](/assets/images/gef-config.png)
+![gef-config](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/gef-config.png)
 
 Or to get one setting value:
 

@@ -5,4 +5,4 @@
 
 ---
 
-![redirect](/assets/images/redirect.png)
+![redirect](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/redirect.png)

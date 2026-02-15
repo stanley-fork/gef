@@ -25,51 +25,51 @@ Currently `GEF` supports the following architectures:
 To this day, GDB doesn't come with a hexdump-like view. Well `GEF` fixes that for you via the
 `hexdump` command:
 
-![hexdump](/assets/images/hexdump.png)
+![hexdump](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/hexdump.png)
 
 ### Dereferencing data or registers
 
 No more endless manual pointer dereferencing `x/x` style. Just use `dereference` for that. Or for a
 comprehensive view of the registers, `registers` might become your best friend:
 
-![mipsel-deref-regs](/assets/images/mipsel-deref-regs.png)
+![mipsel-deref-regs](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/mipsel-deref-regs.png)
 
 ### Heap analysis
 
 #### Detailed view of Glibc Chunks
 
-![x86-heap-chunks](/assets/images/x86-heap-chunks.png)
+![x86-heap-chunks](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/x86-heap-chunks.png)
 
 #### Automatic detection of UaF during runtime
 
-![x86-heap-helper-uaf](/assets/images/x86-heap-helper-uaf.png)
+![x86-heap-helper-uaf](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/x86-heap-helper-uaf.png)
 
 ### Display ELF information
 
 #### ELF structure
 
-![elf-info](/assets/images/elf-info.png)
+![elf-info](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/elf-info.png)
 
 #### Security settings
 
-![elf-checksec](/assets/images/elf-checksec.png)
+![elf-checksec](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/elf-checksec.png)
 
 ### Automatic vulnerable string detection
 
-![aarch64-fmtstr](/assets/images/aarch64-fmtstr.png)
+![aarch64-fmtstr](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/aarch64-fmtstr.png)
 
 ### Code emulation with Unicorn-Engine (x86-64)
 
-![emu](/assets/images/emu.png)
+![emu](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/emu.png)
 
 ### Comprehensive address space layout display
 
-![vmmap](/assets/images/vmmap.png)
+![vmmap](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/vmmap.png)
 
 ### Defining arbitrary custom structures
 
-![sparc-arb-struct](/assets/images/sparc-arb-struct.png)
+![sparc-arb-struct](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/sparc-arb-struct.png)
 
 ### Highlight custom strings
 
-![highlight-command](/assets/images/highlight-command.png)
+![highlight-command](https://raw.githubusercontent.com/hugsy/gef/refs/heads/main/docs/assets/images/highlight-command.png)
